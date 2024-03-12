@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principal"
+    android:orientation="vertical"
+    >
+
+
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="174dp"
+            app:srcCompat="@drawable/grupo1" />
+
+        <Button
+            android:id="@+id/btn_detalles"
+            android:layout_width="368dp"
+            android:layout_height="62dp"
+            android:text="@string/titulo_detalles"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="20dp"
+            android:textSize="24sp"
+            />
+
+        <Button
+            android:id="@+id/btn_globos"
+            android:layout_width="368dp"
+            android:layout_height="62dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/titulo_globos"
+            android:layout_marginStart="20dp"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/btn_peluches"
+            android:layout_width="368dp"
+            android:layout_height="62dp"
+            android:text="@string/titulo_peluches"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="20dp"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/btn_regalos"
+            android:layout_width="368dp"
+            android:layout_height="62dp"
+            android:text="@string/titulo_regalos"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="20dp"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/btn_tazas"
+            android:layout_width="368dp"
+            android:layout_height="62dp"
+            android:text="@string/titulo_tazas"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="20dp"
+            android:textSize="24sp"/>
+
+
+
+
+</LinearLayout>
