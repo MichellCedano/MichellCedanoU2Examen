@@ -18,34 +18,34 @@ class Principal : AppCompatActivity() {
 
         btnDetalles.setOnClickListener {
             var intent: Intent = Intent(this,Regalos::class.java)
-            intent.putExtra("menuType","Antojitos")
+            intent.putExtra("menuType","Detalles")
             startActivity(intent)
         }
 
 
         btnGlobos.setOnClickListener {
             var intent: Intent = Intent(this,Regalos::class.java)
-            intent.putExtra("menuType","Especialidades")
+            intent.putExtra("menuType","Globos")
             startActivity(intent)
         }
 
 
         btnPeluches.setOnClickListener {
             var intent: Intent = Intent(this,Regalos::class.java)
-            intent.putExtra("menuType","Combinaciones")
+            intent.putExtra("menuType","Peluches")
             startActivity(intent)
         }
 
 
         btnRegalos.setOnClickListener {
             var intent: Intent = Intent(this,Regalos::class.java)
-            intent.putExtra("menuType","Tortas")
+            intent.putExtra("menuType","Regalos")
             startActivity(intent)
         }
 
         btnTazas.setOnClickListener {
             var intent: Intent = Intent(this,Regalos::class.java)
-            intent.putExtra("menuType","Sopas")
+            intent.putExtra("menuType","Tazas")
             startActivity(intent)
         }
 
